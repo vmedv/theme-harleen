@@ -27,7 +27,7 @@ function fish_prompt
 
     set -l level (math "$SHLVL - $base_shlvl")
     for i in (seq $level)
-        echo -n ">"
+        echo -n " "
     end
 
     # Displaying useful information in case of browsing a Git repository
